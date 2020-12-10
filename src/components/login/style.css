@@ -1,0 +1,141 @@
+.base-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    font-size: 24 px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    .image {
+      width: 10 em;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .form {
+      margin-top: 2 em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+        label {
+          font-size: 20 px;
+        }
+        input {
+          margin-top: 6 px;
+          min-width: 18 em;
+          height: 37 px;
+          padding: 0 px 10 px;
+          font-size: 16 px;
+          font-family: "Open Sans", sans-serif;
+          background-color: #f3f3f3;
+          border: 2;
+          border-radius: 6 px;
+          margin-bottom: 31 px;
+          transition: all 250 ms ease-in-out;
+          &:hover {
+            //background-color: #ffffff;
+            //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+          }
+
+          &:focus {
+            outline: none;
+            box-shadow: 0 px 0 px 12 px 0.8 px ;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 3 em;
+  }
+}
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    font-size: 35 px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    .image {
+      width: 21 em;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .form {
+      margin-top: 2 em;
+      display: flex;
+      align-items: center;
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+        label {
+          font-size: 20 px;
+           padding-centre: 5 px;
+           flex: 5 px;
+
+        }
+        row{
+           padding-centre: 5 px;
+           flex: 5;
+        }
+        input {
+          flex: 3;
+          margin-top: 10 px;
+          min-width: 18 em;
+          height: 37 px;
+          padding: 0 px 10 px;
+          font-size: 16 px;
+          font-family: "Open Sans", sans-serif;
+          background-color: #f3f3f2;
+          border: 0;
+          border-radius: 4 px;
+          margin-bottom: 31 px;
+          transition: all 250 ms ease-in-out;
+          &:hover {
+            //background-color: #ffffff;
+            //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+          }
+
+          &:focus {
+            outline: none;
+            box-shadow: 0 px 0 px 12 px 0.8 px #00d084;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 3 em;
+  }
+}
